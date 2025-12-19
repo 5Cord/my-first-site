@@ -1,0 +1,21 @@
+button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 16px;
+    /* font-size: 50px; */
+}
+
+button:hover {
+    background-color: #398a3c;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    /* Если картинка не подходит по размеру — обрежь лишнее, но не растягивай */
+    object-fit: cover;
+}
